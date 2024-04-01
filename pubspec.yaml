@@ -1,0 +1,35 @@
+name: firebase
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_screenutil: ^5.9.0
+  flutter_easyloading: ^3.0.5
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.14.0
+  google_sign_in: ^6.1.6
+  cloud_firestore: ^4.13.1
+  the_apple_sign_in: ^1.1.1
+  double_back_to_close_app: ^2.1.0
+  lottie: ^2.6.0
+  local_auth: ^2.1.2
+
+  flutter:
+    sdk: flutter
+  local_auth_android: ^1.0.37
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/lotties/
+  uses-material-design: true
